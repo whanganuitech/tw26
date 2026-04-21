@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Techweek 2026 Whanganui</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&amp;family=Manrope:wght@400;500;600;700&amp;family=Raleway:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#9ecaff",
+                        "secondary-fixed": "#ffd9e1",
+                        "surface-container-highest": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "on-surface-variant": "#44474e",
+                        "secondary-container": "#e10f73",
+                        "surface-container-high": "#e7e8e9",
+                        "on-background": "#191c1d",
+                        "surface-dim": "#d9dadb",
+                        "on-tertiary-fixed": "#001d36",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed": "#d1e4ff",
+                        "on-primary-fixed": "#031b3c",
+                        "surface-bright": "#f8f9fa",
+                        "outline": "#75777f",
+                        "background": "#f8f9fa",
+                        "tertiary": "#000f20",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-container": "#fffbff",
+                        "primary-fixed": "#d7e3ff",
+                        "surface-tint": "#4b5f83",
+                        "on-primary-fixed-variant": "#33476a",
+                        "on-error-container": "#93000a",
+                        "primary": "#000d25",
+                        "surface": "#f8f9fa",
+                        "primary-fixed-dim": "#b3c7f0",
+                        "on-primary": "#ffffff",
+                        "secondary": "#b6005a",
+                        "secondary-fixed-dim": "#ffb1c5",
+                        "on-primary-container": "#788bb2",
+                        "on-surface": "#191c1d",
+                        "inverse-primary": "#b3c7f0",
+                        "on-secondary-fixed": "#3f001b",
+                        "surface-variant": "#e1e3e4",
+                        "inverse-on-surface": "#f0f1f2",
+                        "surface-container-low": "#f3f4f5",
+                        "surface-container": "#edeeef",
+                        "error": "#ba1a1a",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#2e3132",
+                        "primary-container": "#0d2344",
+                        "on-tertiary-container": "#0c8feb",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#8f0045",
+                        "on-tertiary-fixed-variant": "#00497d",
+                        "tertiary-container": "#002543",
+                        "outline-variant": "#c5c6cf"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Raleway"],
+                        "label": ["Raleway"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .glass {
+                @apply bg-primary/70 backdrop-blur-md;
+            }
+            .text-glow {
+                text-shadow: 0 0 20px rgba(182, 0, 90, 0.5);
+            }
+        }
+    </style>
+</head>
+<body class="bg-primary text-on-primary font-body antialiased min-h-screen flex flex-col">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-[#000d25]/70 backdrop-blur-md shadow-[0px_20px_40px_rgba(0,13,37,0.08)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-black text-white tracking-tighter font-['Plus_Jakarta_Sans']">Techweek 2026</div>
+<div class="hidden md:flex space-x-8">
+<!-- Using semantic logic, none are strictly active for a pure landing page unless specified, but let's assume 'Schedule' as primary intent -->
+<a class="text-[#b6005a] border-b-2 border-[#b6005a] pb-1 font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#">Schedule</a>
+<a class="text-slate-300 hover:text-white transition-colors hover:text-[#b6005a] transition-all duration-300 font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#partners">Partners</a>
+<a class="text-slate-300 hover:text-white transition-colors hover:text-[#b6005a] transition-all duration-300 font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="https://whanganuitechnetwork.nz">Contact</a>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-24">
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex items-center justify-center overflow-hidden px-6 lg:px-12 py-20">
+<!-- Ambient Background Elements -->
+<div class="absolute inset-0 bg-primary z-0"></div>
+<div class="absolute top-1/4 -right-1/4 w-[800px] h-[800px] bg-secondary-container/20 rounded-full blur-[120px] mix-blend-screen z-0"></div>
+<div class="absolute bottom-0 -left-1/4 w-[600px] h-[600px] bg-tertiary-container/40 rounded-full blur-[100px] mix-blend-screen z-0"></div>
+<div class="relative z-10 max-w-4xl mx-auto w-full flex flex-col items-center justify-center gap-16 lg:gap-24">
+<!-- Typography / Left Anchor -->
+<div class="flex-1 flex flex-col items-center text-center space-y-8">
+<img alt="Techweek 26 Logo" class="w-full max-w-2xl lg:max-w-3xl mx-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0uiUKlLnfu6CcjWj1M0I3Ewxtismv2PvrMbVSxZC9lEtIqN7g7LUP3bNPrrlZ9X8FZp4t_CkQJ9bJ8fgb3MtvdoLmxQsbOjfPWANd9y7hsiFMfr6WoGSp2I-AiRM-GW7u6jv_wxXyr_-kJMPnFPNB0biNr9KXuKNHIlQX7_rS-Qmkb0EHCsLzVT5aChUriTGCyGwbA0M-L0FfERl7DJAR4z4QrlfunY0p0f0nzxBlPnXNAjdyhpE7VKAekRIc5z4pijD0lCbkTgh-pQ"/>
+<div class="space-y-4">
+<p class="font-headline text-2xl lg:text-3xl font-bold text-white tracking-tight">18-23 May 2026</p>
+<p class="font-body text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+                            Experience the convergence of deep technical insight and high-energy innovation in Whanganui. Join us for a week of high-end editorial tech discourse.
+                        </p>
+</div>
+<div class="pt-8 flex items-center justify-center w-full"><img alt="Whanganui Tech Network Logo" class="h-12 md:h-16 w-auto object-contain brightness-0 invert opacity-90" src="https://lh3.googleusercontent.com/aida/ADBb0ujzE3juWRQg7hFxDUTMgt5yXRvslIqgDX3WWNH-M7q3oshWUhnukRKTLNJkjhCmDCnITueCHMoikboHQr7LgBMbrNaBYIcQ165tFRMtmwBA3m5ZAXJEpEabluIClFMdXOGPoQpcb-EJVlA2wsVkj1Kb8jSgNn-ogquRM2B51llAGwGZNacWpECK9_reOLXpXz9MupiM67092QPWP31i2w-DRdwMaO9FaQZ10dD2TIkGMgUL7FuMNd7TQhvFOJ7yHtWkD6hBj_ydYwQ"/></div>
+</div>
+</div>
+</section>
+<!-- Countdown Section -->
+<section class="py-20 bg-primary-container/20 relative z-10 border-y border-outline-variant/10">
+<div class="max-w-4xl mx-auto px-6 text-center space-y-12">
+<h2 class="font-headline text-3xl font-bold text-white tracking-tight">T-Minus to Lift Off</h2>
+<div class="flex flex-wrap justify-center gap-6 lg:gap-12">
+<!-- Days -->
+<div class="flex flex-col items-center">
+<div class="w-24 h-24 lg:w-32 lg:h-32 bg-primary flex items-center justify-center rounded-xl shadow-[0px_20px_40px_rgba(0,13,37,0.08)] border border-outline-variant/15 relative overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="font-headline text-4xl lg:text-5xl font-black text-secondary-fixed-dim relative z-10">415</span>
+</div>
+<span class="mt-4 font-label text-sm text-slate-400 uppercase tracking-widest">Days</span>
+</div>
+<!-- Colon (Visual separator) -->
+<div class="hidden lg:flex items-center justify-center w-8 h-32">
+<span class="font-headline text-4xl font-black text-slate-600">:</span>
+</div>
+<!-- Hours -->
+<div class="flex flex-col items-center">
+<div class="w-24 h-24 lg:w-32 lg:h-32 bg-primary flex items-center justify-center rounded-xl shadow-[0px_20px_40px_rgba(0,13,37,0.08)] border border-outline-variant/15 relative overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="font-headline text-4xl lg:text-5xl font-black text-secondary-fixed-dim relative z-10">08</span>
+</div>
+<span class="mt-4 font-label text-sm text-slate-400 uppercase tracking-widest">Hours</span>
+</div>
+<!-- Colon -->
+<div class="hidden lg:flex items-center justify-center w-8 h-32">
+<span class="font-headline text-4xl font-black text-slate-600">:</span>
+</div>
+<!-- Minutes -->
+<div class="flex flex-col items-center">
+<div class="w-24 h-24 lg:w-32 lg:h-32 bg-primary flex items-center justify-center rounded-xl shadow-[0px_20px_40px_rgba(0,13,37,0.08)] border border-outline-variant/15 relative overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="font-headline text-4xl lg:text-5xl font-black text-secondary-fixed-dim relative z-10">45</span>
+</div>
+<span class="mt-4 font-label text-sm text-slate-400 uppercase tracking-widest">Minutes</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Events Schedule Section (Bento Grid Style) -->
+<section class="py-24 lg:py-32 bg-surface-container-low px-6 lg:px-12 relative z-10">
+<div class="max-w-7xl mx-auto space-y-16">
+<div class="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-outline-variant/15 pb-8">
+<div class="space-y-4">
+<h2 class="font-headline text-4xl lg:text-5xl font-extrabold text-primary tracking-tight">The Agenda</h2>
+<p class="font-body text-lg text-on-surface-variant max-w-2xl">A curated sequence of technical deep-dives, industry panels, and networking nodes.</p>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Event 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Forum</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">18 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">6pm - 8pm</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Regional Energy Sector Forum</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ 120 Victoria Ave Whanganui</span>
+</div>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                                TBC
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> David Alexander / Whanganui Tech Network / Whanganui &amp; Partners
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Workshop</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">19 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">5pm - 7:30pm</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">AI Together: Learning as Whānau</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ 120 Victoria Ave Whanganui</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">A practical, hands-on wānanga for parents and rangatahi. Come and explore how to use AI in a way that works for your whānau.</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                This is a Bring Your Own Devices sit-down session intended for small whānau groups to support collaborative activities. Our event is open to the public with registrations open 20 April 2026. It is targeted toward whanāu with Rangatahi aged 9-15, and space is limited — priority given to whānau registrations.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Ngā Tai O Te Awa, Whanganui Tech Network, HIVE HQ
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Workshop</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">19 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">5:30pm - 7:30pm</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Wāhine Māori in tech</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ 120 Victoria Ave Whanganui</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">Social Media Safety: A Te Ao Māori Approach</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                Social media is constantly changing and keeping up with what's safe and how to protect ourselves and our whānau online is hard work. This workshop takes a te ao Māori approach to social media safety, using tikanga and kawa as a framework to help you navigate online spaces with confidence. Whether you're worried about scams, privacy, deepfakes or just want to use social media for connecting with whānau and fun, this is for you.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Whetu Fala, Katie Brown. Sponsored by Internet NZ, Te Hapori Matahiko, Te Manu Atatū Whanganui Māori Business Network.
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Workshop</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">20 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">TBC</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Serious Brand Strategy:Tech</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Nikau Room, Hive HQ 120 Victoria Ave, Whanganui</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">How A Strategy Dev Completes Your Product Stack</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                Serious Brand Strategy: Tech has been specially created to help tech builders, founders, and teams understand how brand strategy can help them ship faster, sell smarter, and reach the people who need what they've built. In this two-hour workshop, you'll discover what a Strategy Dev brings to a product team, why their thinking catches problems your roadmap can't see, and how embedding brand strategy early changes not just how you talk about your product — but how you build it.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Kit Lawrence
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 5 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Networking</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">20 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">5:30pm - 7:30pm</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Celebrating Tech - Networking event</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ 120 Victoria Ave, Whanganui</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">Join the Whanganui Tech Network for an informal, social networking evening to celebrate Techweek 2026!</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                Techweek is Aotearoa New Zealand’s national festival of tech and innovation. The Whanganui Tech Network and Hive HQ celebrate Techweek by co-hosting a networking event intended for anyone interested in making connections within our local tech ecosystem.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Whanganui Tech Network and Hive HQ
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 6 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Workshop</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">21 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">10am - 11am</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">The Pocket Te Reo Māori Apps Guide</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ 120 Victoria Ave, Whanganui</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">A Māori APPS tech play time for all ages, to help take out some of the mystery of common Māori language and culture situations.</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                Always wanted to know what to ask about a Māori welcome - and too scared to get it wrong? Been invited to a marae for work but never been before? Attending a Māori funeral at a local home or marae but don’t know what to expect? Looking to up your Te Reo Māori phrases but don’t know any speakers for a one-on-one? Whetū takes you through her favourite apps she keeps in her kete to help you on your own Māori language journey.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Whetu Fala Te Manu Atatū Whanganui Māori Business Network
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 7 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Keynote</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">21 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">6pm</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">The Māori AI Future</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ 120 Victoria Ave, Whanganui</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">Where are we in our transformational journey as First Nations people from consumers to creators of emerging technology.</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                How is all the work that has been done to build Māori AI that reflects our values and voices being used? Building on his PHD thesis work with fellow Dr Kelvin Shedlock, completed in 2025, that explored how Kaupapa Māori can shape AI algorithms, a chance to hear on his latest updates on his work and also the international First Nations AI research work he is involved with, Abundant Intelligences.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Dr Petera Hudson (Whakatohea), Sponsored by Te Manu Atatū Whanganui Māori Business network.
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 8 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-surface-container-high text-on-surface-variant font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Expo</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="font-label text-sm font-semibold">22 May</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="font-label text-sm font-semibold">TBC</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Rangatahi Tech Expo</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">Hive HQ, Whanganui Regional Museum, Te Rerenga Mai o Te Kaauru - Alexander Library &amp; Te Whare o Rehua - Sarjeant Gallery</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">Dive into a high-energy day of innovative tech experiences designed for rangatahi, rotating in small groups across four exciting venues — bookings essential!</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                                Multiple workshops &amp; information sharing activities across all venues. Building a creative and collaborative network that will unlock the innovation potential of Māori knowledge resources and people. We imagine an equitable society where everyone realises the future of their dreams.
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Ngareta Patea - Te Kaahui o Rauru
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Event 9 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-[0px_20px_40px_rgba(0,13,37,0.04)] flex flex-col group relative overflow-hidden">
+<div class="relative z-10 space-y-6 flex-grow">
+<div class="flex items-center justify-between">
+<span class="bg-primary text-white font-label text-xs uppercase tracking-widest px-3 py-1 rounded-full">Keynote</span>
+<div class="flex flex-col items-end space-y-1 text-on-surface-variant">
+<div class="flex items-center space-x-2 text-secondary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
+<span class="font-label text-sm font-semibold">22 May</span>
+</div>
+<div class="flex items-center space-x-2 text-secondary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">schedule</span>
+<span class="font-label text-sm font-semibold">6pm</span>
+</div>
+</div>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary leading-tight group-hover:text-secondary transition-colors">Whanganui Tech Sector Proposal</h3>
+<div class="flex items-start space-x-2 text-on-surface-variant mb-2">
+<span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
+<span class="font-body text-sm">TBC</span>
+</div>
+<p class="font-body text-sm font-semibold text-primary">Keynote event</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                                TBC
+                            </p>
+<p class="font-body text-xs text-outline mt-4 border-t border-outline-variant/15 pt-4">
+<strong>Hosts:</strong> Whanganui Tech Network
+                            </p>
+</div>
+<div class="relative z-10 pt-6 mt-6 border-t border-outline-variant/15 flex justify-end">
+<a class="inline-flex items-center space-x-2 text-secondary font-label uppercase text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">
+<span>Register</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Partners Section -->
+<section class="py-20 bg-surface-container-low/50 relative z-10 border-t border-outline-variant/10" id="partners">
+<div class="max-w-7xl mx-auto px-6 text-center space-y-12">
+<h2 class="font-headline text-4xl lg:text-5xl font-extrabold text-primary tracking-tight">Our Partners</h2>
+<div class="flex flex-wrap justify-center items-center gap-12 lg:gap-24 opacity-80">
+<img alt="Partner Logo 1" class="h-12 md:h-16 object-contain grayscale hover:grayscale-0 transition-all duration-300" data-alt="Simple geometric corporate logo in white against transparent background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtMGV1oHYWhHd26tkhwAIh3ehHycUgF9AZeO-UwsQV0HUiYTLGWAauuDWwY1fStbHuAEcNubKTrTEIgUxT04yH7x1cP1ui6V-HVymqkk1u934SYwDCsgMI2KBYlw4d-1FzQq0_Wvv8-TG4b6R-UgTUCzq7mfwX3xg8S4n4XTRCZHEjkY8nGaSkJbu45Crh5eUl5OMJqCQMUwb8V5Nw97JrTr0XEVGJAyqIhDSXAFrysF1Wi_z4vpn36l7nfjbX29YPckh89JjLqIyg"/>
+<img alt="Partner Logo 2" class="h-12 md:h-16 object-contain grayscale hover:grayscale-0 transition-all duration-300" data-alt="Modern tech startup text logo in white against transparent background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQbIGkCYLyHMTXbpht5WYDlSBW29PfHDILl7FECdEl6qgGf6PkIloInC85CF-H3VTia6-6IsHV35lEOysiccwzwCeC4s6BGSkFiVfKTv1yXFFHMxn0hQ4OAL7czVALGtcID2m58pPeyS7f6XRJgec5iC4EjHkv14rr6SO4HbxyzZvtUqE5nPvQxthkd6nntHS6hMoF20VNkAD7d9Zo9uDrPSNqamIspagqFVjjK4YlCa1XBYXETUtXXkQzFdO_YfydMVahzwY0z8la"/>
+<img alt="Partner Logo 3" class="h-12 md:h-16 object-contain grayscale hover:grayscale-0 transition-all duration-300" data-alt="Minimalist abstract shape logo in white against transparent background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeuhXp1fjs657RrR9Ly4YY8dXrZ9rOLJfAF4iLrSI3ZJusEUc7d3IQcluwLGaFxHiWN63EiKQgIILn1LOJsLCAF1wze-yiugtrwqVEMPhmctGD0Ir_I8GTSiIrK9B8eRbRXPAaq66U_78zoafe1GRJtS21jx-ZK9Ic37hH5JxQgLfjBtlN0312_4Zz-pLMzpzs67A1nLwTBqagjxcprI9KUIWLV9oTmGjWJ0tbOtNC_GAEZn0v7Zqb5pXEVGaHgMfzPQdi07s3J4BP"/>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full mt-20 bg-[#000d25] flex flex-col md:flex-row justify-between items-center px-12 py-16 bg-[#000f20] border-t border-white/10">
+<div class="flex flex-col items-center md:items-start space-y-6 mb-8 md:mb-0">
+<div class="text-lg font-bold text-white font-['Plus_Jakarta_Sans']">Techweek 2026</div>
+<p class="font-['Raleway'] text-sm leading-relaxed text-slate-400 max-w-sm text-center md:text-left">
+                © 2026 Whanganui Tech Network Charitable Trust. All rights reserved. 18-23 May 2026.
+            </p>
+<!-- Partner Logos -->
+</div>
+<div class="flex flex-col items-center md:items-end space-y-4">
+<div class="flex flex-col items-center md:items-end space-y-4">
+<h3 class="text-lg font-bold text-white font-['Plus_Jakarta_Sans'] uppercase tracking-tight">Contact Us</h3>
+<div class="flex items-center space-x-6">
+<a class="text-slate-400 hover:text-[#b6005a] transition-all duration-300" href="https://whanganuitechnetwork.nz" target="_blank" title="Website">
+<span class="material-symbols-outlined text-2xl">public</span>
+</a>
+<a class="text-slate-400 hover:text-[#b6005a] transition-all duration-300" href="#" target="_blank" title="LinkedIn">
+<span class="material-symbols-outlined text-2xl">work</span>
+</a>
+<a class="text-slate-400 hover:text-[#b6005a] transition-all duration-300" href="#" target="_blank" title="Facebook">
+<span class="material-symbols-outlined text-2xl">group</span>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
