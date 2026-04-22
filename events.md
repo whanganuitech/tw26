@@ -24,19 +24,7 @@
 - Humanitix registration link: TBC
 
 
-3. Wāhine Māori in tech
-
-- Date: Tuesday 19th May 2026
-- Time: 5:30pm - 7:30pm
-- Location: Hive HQ 120 Victoria Ave Whanganui
-- Subtitle: Social Media Safety: A Te Ao Māori Approach
-- Description: Social media is constantly changing and keeping up with what's safe and how to protect ourselves and our whānau online is hard work. This workshop takes a te ao Māori approach to social media safety, using tikanga and kawa as a framework to help you navigate online spaces with confidence. Whether you're worried about scams, privacy, deepfakes or just want to use social media for connecting with whānau and fun, this is for you.
-- Hosts: Whetu Fala, Katie Brown. Sponsored by Internet NZ, Te Hapori Matahiko, Te Manu Atatū Whanganui Māori Business Network.
-- Cover image: TBC
-- Humanitix registration link: TBC
-
-
-4. Serious Brand Strategy:Tech
+3. Serious Brand Strategy:Tech
 
 - Date: Wednesday 20th May 2026
 - Time: TBC
@@ -48,7 +36,7 @@
 - Humanitix registration link: TBC
 
 
-5. Celebrating Tech - Networking event
+4. Celebrating Tech - Networking event
 
 - Date: Wednesday 20th May 2026
 - Time: 5:30pm - 7:30pm
@@ -60,7 +48,7 @@
 - Humanitix registration link: TBC
 
 
-6. The Pocket Te Reo Māori Apps Guide
+5. The Pocket Te Reo Māori Apps Guide
 
 - Date: Thursday 21st May 2026
 - Time: 10am - 11am
@@ -73,7 +61,7 @@ Whetū takes you through her favourite apps she keeps in her kete to help you on
 - Humanitix registration link: TBC
 
 
-7. The Māori AI Future
+6. The Māori AI Future
 
 - Date: Thursday 21st May 2026
 - Time: 6pm
@@ -85,7 +73,7 @@ Whetū takes you through her favourite apps she keeps in her kete to help you on
 - Humanitix registration link: TBC
 
 
-8. Rangatahi Tech Expo
+7. Rangatahi Tech Expo
 
 - Date: Friday 22nd may 2026
 - Time: TBC
@@ -97,7 +85,7 @@ Whetū takes you through her favourite apps she keeps in her kete to help you on
 - Humanitix registration link: TBC
 
 
-9. Whanganui Tech Sector Proposal
+8. Whanganui Tech Sector Proposal
 
 - Date: Friday 22nd May 2026
 - Time: 6pm
@@ -107,4 +95,3 @@ Whetū takes you through her favourite apps she keeps in her kete to help you on
 - Hosts: Whanganui Tech Network
 - Cover image: TBC
 - Humanitix registration link: TBC
-
