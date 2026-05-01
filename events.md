@@ -49,7 +49,7 @@
 - Location: Hive HQ 120 Victoria Ave, Whanganui
 - Event type: Workshop
 - Subtitle: A Māori Apps tech play time for all ages, to help take out some of the mystery of common Māori language and culture situations.
-- Description: Always wanted wanted to know what to ask about a Māori welcome - and too scared to get it wrong? Been invited to a marae for work but never been before? Attending a Māori funeral at a local home or marae but don't know what to expect? Looking to up your Te Reo Māori phrases but don't know any speakers for a one-on-one? Whetū takes you thru her favourite APPS she keeps in her kete to help you on your own Māori language journey.
+- Description: Always wanted wanted to know what to ask about a Māori welcome - and too scared to get it wrong? Been invited to a marae for work but never been before? Attending a Māori funeral at a local home or marae but don't know what to expect? Looking to up your Te Reo Māori phrases but don't know any speakers for a one-on-one? Whetū takes you through her favourite Apps she keeps in her kete to help you on your own Māori language journey.
 - Hosts: Whetu Fala, Te Manu Atatū Whanganui Māori Business Network 
 - Registration link: https://events.humanitix.com/the-pocket-te-reo-maori-apps-guide 
 
