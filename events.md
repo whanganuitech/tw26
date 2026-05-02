@@ -85,3 +85,105 @@
 - Description: This event will bring together local leaders, industry voices, and community stakeholders to explore the future of technology in Whanganui. The session will introduce the Whanganui Tech Sector Proposal as a starting point for discussion, collaboration, and future action, while exploring the ideas, opportunities, and partnerships that can help grow a strong and future ready tech sector in our region. Guests will have the chance to connect with fellow attendees before the session begins, with further opportunities for informal discussion and networking afterwards.
 - Hosts: Michael Law (MC) | Whanganui Tech Network
 - Registration link: https://events.humanitix.com/shaping-whanganui-s-tech-future-a-conversation-about-innovation-growth-and-opportunity 
+
+
+# Library events
+
+## Thinking With AI
+- Date: Monday 18th May 2026
+- Time: 10am - 11am
+- Location: Gonville Library, Whanganui
+- Event type: Workshop
+- Subtitle: A Small-Group Masterclass
+- Description: A practical, small-group session exploring how to work with AI as a thinking partner - not just a tool for answers.
+- Hosts: Whanganui District Library
+- Registration link: no registration required
+
+
+## SENSE Whanganui: Cyber Safety Made Practical
+- Date: Monday 18th May 2026
+- Time: 11am - 12pm
+- Location: Gonville Library, Whanganui
+- Event type: Workshop
+- Subtitle: What will actually help you feel safer online?
+- Description: This one-hour SENSE Whanganui session focuses on the real situations people face every day: suspicious messages, scams, account issues, and those moments where something just doesn't feel right.
+- Hosts: SENSE Whanganui
+- Registration link: https://events.humanitix.com/sense-whanganui-cyber-safety-made-practical 
+
+
+## Latest Library Apps
+- Date: Monday 18th May 2026
+- Time: 3:30pm - 4:30pm
+- Location: Alexander Library, Whanganui
+- Event Type: Workshop
+- Subtitle: Discover our latest library apps BorrowBox and the Whanganui District Library app.
+- Description: Get free access to eBooks, eAudiobooks, eNewpapers & eMags. Take control of your library account. Bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/latest-library-apps 
+
+
+## Good Reads @ Gonville
+- Date: Tuesday 19th May 2026
+- Time: 1:30pm - 3pm
+- Location: Gonville Library, Whanganui
+- Event type: Workshop
+- Subtitle: This month's book chat will have a focus on tech, AI, and sci-fi.
+- Description: Bring your favourites along and share your thoughts with others! No bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/good-reads-gonville
+
+
+## Heritage Helpdesk FAQs
+- Date: Wednesday 20th May 2026
+- Time: 10am - 12pm
+- Location: Alexander Library, Whanganui
+- Event type: Workshop
+- Subtitle: Tech tips for researching smarter in the digital age.
+- Description: ncrease your genealogical genius with the local branch of the New Zealand Society of Genealogists. | Using Excel to organise family DNA matches | Using the Alexander Library microfilm to read old newspapers | How do I use the card catalogue and browse Ancestry.com? | How do I join a Microsoft Teams meeting? Bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/heritage-helpdesk-faqs-tech-tips-for-researching-smarter-in-the-digital-age
+
+
+## Minecraft
+- Date: Wednesday 20th May 2026
+- Time: 3:30pm - 4:30pm
+- Location: Davis Library, Whanganui
+- Event type: Kids Event
+- Subtitle: Kids - enjoy Minecraft at the Davis Library.
+- Description: Bring your own fully charged device with the full version of Minecraft installed. You will need a Microsoft account to connect to our server. No bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/minecraft-the-library-q8q76cee
+
+
+## Cyber Thursday
+- Date: Thursday 21st May 2026
+- Time: 3:30pm - 4:30pm
+- Location: Davis Library, Whanganui
+- Event type: Kids Event
+- Subtitle: Kids -  join us for some STEAM fun with VR headsets, coding, Lego and other tech activities.
+- Description: No bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/cyber-thursday
+
+
+## Call of Cthulhu: Techweek Adventure
+- Date: Friday 22nd May 2026
+- Time: 6pm - 9:30pm
+- Location: Alexander Library, Whanganui
+- Event type: Event
+- Subtitle: Join us for a tech-inspired roleplaying adventure.
+- Description: Enjoy a tech-inspired roleplaying adventure inspired by the Mythos of H.P. Lovecraft. Like Dungeons & Dragons but spookier. Bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/call-of-cthulhu-techweek-adventure
+
+
+## How to keep your children safe online
+- Date: Saturday 23rd May 2026
+- Time: 2:30pm - 4:30pm
+- Location: Gonville Library, Whanganui
+- Event type: Workshop
+- Subtitle: Learn how to keep your children safe online at this presentation and open discussion.
+- Description: Bookings required.
+- Hosts: Whanganui District Library
+- Registration link: https://events.humanitix.com/how-to-keep-your-children-safe-online
+
