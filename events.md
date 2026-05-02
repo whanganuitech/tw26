@@ -130,7 +130,7 @@
 - Subtitle: This month's book chat will have a focus on tech, AI, and sci-fi.
 - Description: Bring your favourites along and share your thoughts with others! No bookings required.
 - Hosts: Whanganui District Library
-- Registration link: https://events.humanitix.com/good-reads-gonville
+- Registration link: https://events.humanitix.com/goodreads-gonville
 
 
 ## Heritage Helpdesk FAQs
