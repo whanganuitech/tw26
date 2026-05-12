@@ -79,7 +79,7 @@
 ## Shaping Whanganui's Tech Future
 - Date: Friday 22nd May 2026
 - Time: 6pm - 9pm
-- Location: Whanganui War Memorial Centre
+- Location: Hive HQ 120 Victoria Ave, Whanganui
 - Event type: Keynote
 - Subtitle: A conversation about innovation, growth and opportunities in the Whanganui tech sector
 - Description: This event will bring together local leaders, industry voices, and community stakeholders to explore the future of technology in Whanganui. The session will introduce the Whanganui Tech Sector Proposal as a starting point for discussion, collaboration, and future action, while exploring the ideas, opportunities, and partnerships that can help grow a strong and future ready tech sector in our region. Guests will have the chance to connect with fellow attendees before the session begins, with further opportunities for informal discussion and networking afterwards.
