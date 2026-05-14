@@ -96,8 +96,8 @@
 - Event type: Workshop
 - Subtitle: A Small-Group Masterclass
 - Description: A practical, small-group session exploring how to work with AI as a thinking partner - not just a tool for answers.
-- Hosts: Whanganui District Library
-- Registration link: no registration required
+- Hosts: Digital Inclusion Whanganui
+- Registration link: https://events.humanitix.com/thinking-with-ai-a-small-group-masterclass
 
 
 ## SENSE Whanganui: Cyber Safety Made Practical
